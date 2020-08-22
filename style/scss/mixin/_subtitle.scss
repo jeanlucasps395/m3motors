@@ -1,0 +1,8 @@
+@mixin subtitle {
+  font-size: 0.9rem;
+  text-align: center;
+
+  @media (min-width: $screen-md-min) {
+    font-size: 1.3rem;
+  }
+}

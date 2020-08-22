@@ -1,0 +1,269 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+.bg-painel{
+	background: url('../../img/painel-bg.png') center center no-repeat;
+	background-size: cover;
+	padding: 80px 0 150px;
+	background-position-y: -150px; 
+}
+
+.bg-painel h1{
+	text-align: center;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+	padding: .8rem 1rem !important;
+	background: #111 !important;
+	color: #fff !important;
+}
+.navbar-brand{
+	color: #fff !important;
+}
+.navbar-brand span{
+	color: #F3123C !important;
+}
+
+
+/*Forms*/
+.formDash{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgb(0,0,0,0.3);
+	padding: 30px;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.formCadastro{
+	width: 800px;
+}
+@media screen and (max-width: 768px){
+	.formDash{
+		width: 100%;
+		padding: 30px 5px;
+		box-shadow: none;
+	}
+	.formCadastro{
+		width: 100%;
+		padding: 30px 5px;
+		box-shadow: none;
+	}
+	.blocoDashboard {
+	    margin-top: -150px;
+	}
+	.bg-painel{
+		padding-top: 30px;
+	}
+
+}
+.maisCarrosP{
+	cursor: pointer;
+}
+.maisCarrosP:hover{
+	color: #007bff;
+}
+input[type="file"]{
+	margin-bottom: 10px;
+}
+.formDash button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+/*Lista*/
+.listOptions{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgb(0,0,0,0.3);
+	padding: 30px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.headerT .tH{
+	background: #F3123C;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.linhaTR{
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.linhaTR p{
+	margin-top: 10px;
+}
+.buttonEditar{
+	background: #00A61E !important;
+	padding: 8px 40px !important;
+    border-radius: 50px !important;
+    border: none !important;   
+    margin-top: 5px; 
+}
+
+
+.button_remove{
+	background: #F3123C !important;
+	padding: 8px 40px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    width: 150px !important;
+    color: #fff !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}	
+.buttonApagar{
+	background: #F3123C !important;
+	padding: 8px 40px !important;
+    border-radius: 50px !important;
+    border: none !important;   
+    margin-top: 5px; 
+}
+
+
+
+
+/*Modal*/
+
+	
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.modal-apagar {
+  display: none; 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.8);
+  overflow: auto;
+  z-index: 999;
+}
+
+.modal-box {
+  position: relative;
+  max-width: 400px;
+  margin: 100px auto;
+  animation-name: modalbox;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0,0,.3,1.6);
+}
+
+.modal-header {
+  padding: 20px 40px;
+  background: #F3123C;
+  color: #ffffff;
+}
+.modal-header h1{
+  font-size: 25px;
+}
+
+.modal-body {
+  background: #ECEFF1;
+  padding: 30px 40px;
+}
+
+/* Close Button */
+.close-modal {
+  text-align: right;
+  cursor: pointer;
+}
+
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+
+.modal-trigger, button {
+  top: 50%;
+  left: 50%;
+  padding: 20px 40px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+
+.modal-trigger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: ease .2s;
+}
+
+.button-modal {
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  color: #333333;
+  background: #F3123C;
+  color: #fff;
+}
+
+.button-modal--cancelar {
+  border-radius: 50px;
+  outline: none;
+  background: none;
+  outline: none;
+  color: #292929;
+  margin-right:  15px;
+}
+
+.modal-trigger:hover {
+  padding: 20px 60px;
+}
+@media screen and (max-width: 450px){
+	.modal-box {
+	    max-width: 290px;
+	}
+	.button-modal--cancelar {
+	  margin-right:  0px;
+	}
+}

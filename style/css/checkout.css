@@ -1,0 +1,243 @@
+@import url(produto.css);
+
+@media screen and (max-width: 768px){
+	select{
+		-webkit-appearance: none;
+	}
+}
+
+.blocoResumo__checkoutTitles{
+	color: #666;
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: bolder;
+	margin-bottom: 30px;
+	font-family: 'montserrat';
+}
+.blocoResumo__image{
+	width: 100%;
+	height: 200px;
+	box-shadow: 4px 4px 4px #eee;
+	border-radius: 15px;
+}
+.blocoResumo__subtitulos{
+	font-size: 20px;
+	color: #292929;
+}
+@media screen and (max-width: 768px){
+	.blocoResumo__subtitulos{
+		margin-top: 25px;
+	}	
+}
+
+
+@media screen and (max-width: 567px){
+	.blocoResumo__checkoutTitles{
+		font-size: 23px;
+	}
+}
+
+.blocoResumo__descricao{
+	font-size: 15px;
+	color: #666;
+}
+
+
+
+.bloco-produto__texto--freteValorBloco{
+	display: block;
+}
+
+
+
+
+
+
+.blocoResumo__checkoutTitles--formPagamento{
+	font-weight: normal;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+}
+
+.formPagamento__bandeira{
+	margin-top: -10px;
+	font-size: 13px;
+	color: #2E3192;
+}
+.formPagamento__label{
+	color: #666;
+	width: 100%;
+}
+.formPagamento__input{
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 12px 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+
+
+.frete_titulo{
+	text-align: left;
+	font-size: 18px;
+	color: #2E3192;
+	padding: 5px 0 5px 0px;
+	margin-bottom: 5px;
+
+}
+#valorFrete_titulo{
+	text-align: right;
+	color: #3F9120;
+}
+
+#cep{
+	background: none;
+	color: #292929;
+	text-align: left;
+
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 12px 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+#formPagamento_endereco_fatura{
+	display: none;
+}
+
+#mensagem_cep p, #mensagem_cep_fatura p{
+	text-align: left !important; 
+	margin-top: -10px !important;
+}
+
+
+
+
+
+
+
+/*status pedido*/
+.blocoResumo__checkoutTitles--tituloStatus{
+    color: #666;
+    font-size: 30px;
+    margin-top: 40px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-family: 'montserrat';
+    /*text-align: center;*/
+    margin-bottom: 50px;
+}
+.class__analise{
+	color: #EEC40E;
+}
+.class__aprovado{
+	color: #3F9120;
+}
+.class__cancelado{
+	color: #F64F49;
+}
+.fa-dolly {
+	margin-left: 10px;
+}
+@media screen and (max-width: 567px){
+	.blocoResumo__checkoutTitles--tituloStatus{
+	    color: #666;
+	    font-size: 18px;
+	    font-weight: bolder;
+	    text-align: center;
+	}
+	.fa-dolly {
+		margin-left: 0px;
+	}
+}
+
+
+
+
+
+
+
+/*CheckBox*/
+.md-checkbox {
+  position: relative;
+  margin: 1em 0 2em 0;
+  text-align: left;
+}
+.md-checkbox.md-checkbox-inline {
+  display: inline-block;
+}
+.md-checkbox label {
+  cursor: pointer;
+  display: inline;
+  line-height: 1.25em;
+  vertical-align: top;
+  clear: both;
+  padding-left: 1px;
+
+}
+.md-checkbox label:not(:empty) {
+  padding-left: 0.75em;
+}
+.md-checkbox label:before, .md-checkbox label:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.md-checkbox label:before {
+  width: 1.25em;
+  height: 1.25em;
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+  border-radius: 0.125em;
+  cursor: pointer;
+  transition: background .3s;
+}
+.md-checkbox input[type="checkbox"] {
+  outline: 0;
+  visibility: hidden;
+  width: 1.25em;
+  margin: 0;
+  display: block;
+  float: left;
+  font-size: inherit;
+}
+.md-checkbox input[type="checkbox"]:checked + label:before {
+  background: #fff;
+  border-color: #3F9120;
+}
+.md-checkbox input[type="checkbox"]:checked + label{
+	color: #3F9120;
+}
+.md-checkbox input[type="checkbox"]:checked + label:after {
+  transform: translate(0.25em, 0.3365384615em) rotate(-45deg);
+  width: 0.75em;
+  height: 0.375em;
+  border: 0.125em solid #3F9120;
+  border-top-style: none;
+  border-right-style: none;
+}
+.md-checkbox input[type="checkbox"]:disabled + label:before {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+.md-checkbox input[type="checkbox"]:disabled:checked + label:before {
+  background: rgba(0, 0, 0, 0.26);
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+

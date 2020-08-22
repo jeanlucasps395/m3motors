@@ -1,0 +1,257 @@
+.blocoDestaque{
+	text-align: center; 
+}
+.blocoDestaque__titulo{
+	font-family: 'montserrat';
+	font-weight: bolder;
+	color: #777;
+	margin-top: 20px;
+}
+.blocoDestaque__itens{
+	margin-top: 50px;
+}
+.blocoDestaque__blocoFoto{
+	width: 90%;
+	background: #ddd;
+	height: 300px;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+.blocoDestaque__tituloItem{
+	margin-top: 15px;
+	font-size: 18px;
+}
+.blocoDestaque__button{
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+	/*width: 100%;*/
+	background: #3F9120;
+	padding: 15px 35px;
+	margin-top: 0px;
+	font-size: 15px;
+	cursor: pointer;
+	margin-bottom: 40px;	
+}
+.fa-long-arrow-right{
+	vertical-align: middle;
+    margin-left: 3px;
+}
+
+.blocoDestaque__produtos{
+	margin-top: 50px;
+	text-align: right;
+	color: #2E3192;
+	padding-right: 30px;
+}
+.blocoDestaque__produtos--ancora{
+	color: #2E3192;
+}
+.blocoDestaque__produtos--ancora:hover{
+	color: #2E3192;
+	
+}
+
+@media screen and (max-width: 991px){
+	.blocoDestaque__blocoFoto{
+		width: 90%;
+		height: 200px;
+		margin: 0 auto;
+		border-radius: 15px;
+	}
+	.blocoDestaque__tituloItem{
+		margin-top: 15px;
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.blocoDestaque__button{
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 576px){
+	.blocoDestaque__produtos {
+	    margin-top: 10px;
+	    margin-bottom: 30px;
+	}
+}
+
+
+
+
+
+/*Sobre a WF*/
+.blocoAbout{
+	background: url('../img/about.png') center center no-repeat;
+	background-size: cover;
+}
+.blocoAbout__backgroundAzul{
+	background: rgb(46,49,146,0.9);
+	padding: 70px  0;
+	color: #fff;
+}
+.blocoAbout__titulo{
+	font-family: 'montserrat';
+	font-weight: bolder;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.blocoAbout__texto{
+	font-size: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+	width: 90%;
+}
+.blocoAbout__blocoIcon{
+	width: 300px;
+	border-radius: 45px 0 45px 0;
+	background: #1F2161;
+	text-align: center;
+    padding: 40px 0px;
+}
+.blocoAbout__textoAesquerda{
+	text-align: left;
+}
+@media screen and (max-width: 991px){
+	.blocoAbout__blocoIcon{
+		width: 100%;
+		background: transparent;
+		
+	    padding: 40px 0px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.blocoAbout__icon{
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.blocoAbout__backgroundAzul{
+		background: rgb(46,49,146,0.9);
+		padding: 30px  0;
+		color: #fff;
+	}
+	.blocoAbout__blocoIcon{
+		padding: 10px 0px;
+	}
+	.blocoAbout__texto{
+		text-align: justify;
+		font-size: 18px;
+		margin-top: 20px;
+		line-height: 30px;
+		width: 100%;
+	}
+	.blocoAbout__row--Column-reverse{
+		flex-direction: column-reverse;
+	}
+	.blocoAbout__textoAesquerda{
+		text-align: center;
+	}
+}
+
+
+
+/*valores*/
+.blocoAbout--background-valores{
+	background: #1F2161;
+}
+.blocoAbout__backgroundAzul--transparent{
+	background: transparent;
+	padding: 70px  0;
+	color: #fff;
+}
+.blocoAbout__textoAdireta{
+	text-align: right;
+}
+.blocoAbout__texto--floatRight{
+	float: right;
+}
+@media screen and (max-width: 576px){
+	.blocoAbout__textoAdireta{
+		text-align: center;
+	}
+}
+
+
+/*Missao*/
+.blocoAbout--background-missao{
+	background: #203A78;
+}	
+.blocoAbout__blocoIcon--transparent{
+	background: transparent;
+}
+
+
+/*visao*/
+.blocoAbout--background-visao{
+	background: #1E4A6E;
+}
+
+
+
+/*Localizacao*/
+.blocoLocalizacao__titulo{
+	font-family: 'montserrat';
+	font-weight: bolder;
+	color: #777;
+	margin-top: 50px;
+}
+.blocoLocalizacao__w100{
+	width: 100%;
+}
+.blocoLocalizacao__espacamento{
+	padding: 40px 30px 60px 40px; 
+}
+.blocoLocalizacao__body{
+	margin-top: 50px;
+	width: 100%;
+	border-radius: 40px;
+	box-shadow: 4px 4px 15px rgb(0,0,0,0.3);
+}
+.blocoLocalizacao__subtitulos{
+	font-family: 'montserrat';
+	font-weight: bolder;
+	color: #777;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.blocoLocalizacao__text{
+	color: #777;
+	margin-top: 20px;
+	font-size: 15px;
+}
+.blocoLocalizacao_button{
+	background: none;
+	border: 2px solid #3F9120;
+	color: #3F9120;
+	font-size: 18px;
+	border-radius: 30px;
+	padding: 8px 20px;
+	width: 150px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.blocoLocalizacao_irAgora{
+	font-size: 15px;
+	color: #3F9120;
+	font-weight: normal;
+}
+
+@media screen and (max-width: 576px){
+	#map{
+		height: 300px;
+		border-radius: 0 0 40px 40px !important;
+	}
+	.blocoLocalizacao__espacamento{
+		text-align: center;
+		padding: 40px 20px 60px 20px;
+	}
+	.blocoLocalizacao_button {
+    	margin-right: 0;
+    }
+}

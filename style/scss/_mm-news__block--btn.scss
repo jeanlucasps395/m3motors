@@ -1,0 +1,25 @@
+@import "mixin/button";
+
+.mm-news__block--btn {
+  text-align: center;
+  margin-top: 38px;
+
+  button {
+    @include button();
+
+    // border: 0;
+    // border-radius: 51px;
+    // background: red;
+    // color: white;
+    // padding: 10px 20px;
+
+    // @media (min-width: $screen-lg-min) {
+    //   font-size: 39px;
+    // }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

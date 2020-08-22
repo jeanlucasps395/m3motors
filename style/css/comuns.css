@@ -1,0 +1,99 @@
+
+/*Classes comuns*/
+html, body{
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 991px){								
+	main{
+		display: table !important;
+	}
+}
+.widhtPadrao{
+	width: 1250px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px){
+	.widhtPadrao{
+		width: 95%;
+	}	
+}
+@media screen and (max-width: 600px){
+	.widhtPadrao{
+		width: 92%;
+	}	
+	.p0XS{
+	  padding: 0 !important;
+	}
+	.mg0AXS{
+		margin: 0 auto !important;
+	}
+}
+@media screen and (max-width: 400px){
+	.widhtPadrao{
+		width: 90%;
+	}	
+}
+.fontColor{
+	color: #008c99 !important;
+}
+.fontColorAtenction{
+	color: #f3901d !important;
+}
+
+.txR{
+	text-align: right;
+}
+
+.txL{
+	text-align: left;
+}
+.txC{
+	text-align: center;
+}
+.p0{
+	padding: 0 !important;
+}
+.p0L{
+	padding-left: 0 !important;
+}
+.p0R{
+	padding-right: 0 !important;
+}
+.mgT5{
+	margin-top: 5px !important;
+}
+.mgT-5{
+	margin-top: -5px !important;
+}
+
+.mgT10{
+	margin-top: 10px !important;
+}
+.mgL-5{
+	margin-left: -5px !important;
+}
+.pdB40{
+	padding-bottom: 40px !important;
+}
+.w100{
+	width: 100%;
+}
+.italico{
+    font-style: italic;
+    font-size: 13px !important;
+    line-height: 20px;
+}
+.justificado{
+	text-align: justify;
+}
+.row{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+/*Fim das Classes comuns*/
+
+.colorOuse{
+	color: #FE5C7E;
+}

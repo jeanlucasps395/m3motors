@@ -1,0 +1,50 @@
+.mm-back {
+  position: relative;
+  font: {
+    family: Montserrat;
+    weight: bold;
+  }
+
+  &__content {
+    position: absolute;
+    top: 12%;
+    width: 100%;
+    text-align: center;
+    color: white;
+
+    @media (min-width: $screen-sm-min) {
+      top: 50%;
+    }
+
+    h1 {
+      font: {
+        size: 3vw;
+        family: Montserrat;
+        weight: bold;
+      }
+    }
+
+    .fas {
+      border-radius: 50px;
+      border: 1px solid white;
+      width: 84px;
+      height: 84px;
+      text-align: center;
+      position: relative;
+      padding: 15px;
+
+      @media (max-width: $screen-sm-max){
+        border: 0;
+      }
+
+
+      &:before {
+        font-size: 50px;
+        
+        @media (max-width: $screen-sm-max){          
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

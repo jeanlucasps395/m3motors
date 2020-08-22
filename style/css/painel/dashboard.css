@@ -1,0 +1,60 @@
+.blocoDashboard{
+  margin-top: -80px;
+}
+.blocoDashboard a, .blocoDashboard a:hover{
+  text-decoration: none;
+}
+.blocoDash{
+  padding: 50px 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-property: all;
+}
+.blocoDash i{
+  font-size: 40px;
+}
+.blocoDash:hover{
+  opacity: .95;
+  box-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+}
+
+.b1{
+  background: #BF0D2E;
+  margin-bottom: 5px;
+  width: 99%;
+}
+.b2{
+  background: #F3123C;
+  margin-bottom: 5px;
+  width: 98%;
+}
+.b3{
+  background: #73081C;
+  margin-bottom: 5px;
+  width: 98%;
+}
+.b4{
+  background: #BF0D2E;
+  margin-bottom: 5px;
+  width: 98%;
+}
+.b5{
+  background: #F3123C;
+  margin-bottom: 5px;
+  width: 99%;
+}
+.b6{
+  background: #73081C;
+  margin-bottom: 5px;
+  width: 98%;
+}
+@media screen and (max-width: 768px){
+  .blocoDashboard {
+      margin-top: -150px;
+  }
+}

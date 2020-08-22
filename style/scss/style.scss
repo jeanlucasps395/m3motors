@@ -1,0 +1,40 @@
+// Custom
+@import "container_custom";
+
+// HEADER
+@import "header/mm-nav";
+@import "header/mm-menu";
+@import "header/header";
+
+// BODY
+@import "body";
+@import "mm-news";
+
+
+// Slick
+@import "slick";
+@import "mm-block";
+
+// Title
+@import "mm-title";
+@import "mm-brand";
+
+// MARCAS
+@import "mm-block__marcas";
+
+// BACKGROUND NEWSLETTER
+@import "mm-background";
+
+// FORM
+@import "mm-background__form";
+
+// FINAL SECTION
+@import "mm-social-media";
+
+// FOOTER
+@import "mm-footer";
+@import "mm-block-end";
+
+
+// Teste
+@import "mm-news__block--btn";
