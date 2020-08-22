@@ -22,6 +22,7 @@
 
 
             // $this->load->view('estrutura/header', $title);
+            // $dados['noticias'] = '';
             $this->load->view('estrutura/header');
             $this->load->view('home');
             $this->load->view('estrutura/footer');

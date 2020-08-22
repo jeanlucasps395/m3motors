@@ -98,25 +98,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="mobileMenu">
     <div class="mobilemenu-block">
         <p class="mobilemenu-block__times"><i class="far fa-times" onclick="closeMenuXS()"></i></p>
-        <img src="<?= base_url('style/img/logo.jpg'); ?>" class="header-block__logo block__logo--mobile">
+        <img  src="<?= base_url('style/'); ?>img/logo.png" class="header-block__logo block__logo--mobile">
         <p>
           <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/index'); ?>">Inicio</a>
+            <a class="nav-link" href="<?= base_url('home/index'); ?>">Artigos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/meusPedidosPesquisa'); ?>">Meus pedidos</a>
+            <a class="nav-link" href="<?= base_url('home/meusPedidosPesquisa'); ?>">Contatos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Produtos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link atAnc" href="#Contatos">Fale conosco</a>
+            <a class="nav-link atAnc" href="#Contatos"> Precisa de ajuda?</a>
           </li>
-          <li class="nav-item">
+           <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Veículos</a>
+          </li>
+          <!-- <li class="nav-item">
             <a class="nav-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998887212"> <i class="fab fa-whatsapp"></i> Contato via Whatsapp </a>
             <a class="nav-link" href="tel:5511998887212"><i class="fad fa-phone"></i> Ligar pra Wf Colchões</a>
-          </li>
+          </li> -->
         </ul>
         </p>
     </div>
@@ -125,14 +128,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="background-home">
     
    <nav class="navbar navbar-expand-md navbar-dark header-block ">
-      
-      <div class="col-xl-7 col-lg-5 col-md-4 col-sm-6 col-6">
+          
+      <div class="col-xl-5 col-lg-4 col-md-4 col-sm-6 col-6">
           <a class="navbar-brand"  href="<?= base_url('home/index'); ?>">
             <img src="<?= base_url('style/'); ?>img/logo.png" alt="M3 Motors" class="header-block__logo">
           </a>
       </div>
 
-      <div  class="col-xl-5 col-lg-7 col-md-8 col-sm-6 col-6 p0">
+      <div  class="col-xl-7 col-lg-8 col-md-8 col-sm-6 col-6 p0">
           
           <div class="d-none d-sm-block">
               <button class="navbar-toggler header-block_toogle" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -147,16 +150,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('home/index'); ?>">Artigos</a>
+                <a class="nav-link" href="<?= base_url('home/index'); ?>"><p class="item-navlink"> Artigos</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('home/meusPedidosPesquisa'); ?>">Marcas</a>
+                <a class="nav-link" href="<?= base_url('home/produtos'); ?>"><p class="item-navlink">  Contatos</p></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Contatos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link atAnc" href="#Contatos">Precisa de ajuda?</a>
+                <a class="nav-link atAnc" href="#Contatos"><p class="item-navlink">  Precisa de ajuda?</p></a>
               </li><!-- 
               <li class="nav-item">
                 <a class="nav-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998887212"><i class="fab fa-whatsapp"></i></a>
@@ -168,51 +168,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
     </nav>
-    <style type="text/css">
-      .navbar-nav{
-        width: 100%;
-      }
-      .mm-last-item{
-        background-color: red;
-        border-radius: 23px;
-        color: #fff;
-      }
-    </style>
-
-
-
 </div>
-
-
-<!-- 
-
-<header>
-    <div class="mm-nav">
-        <div class="col-6">
-            <div class="mm-nav__logo">
-                <img class="img-fluid" src="<?= base_url('style/'); ?>img/logo.png" alt="M3 Motors">
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="mm-menu">
-                <i class="fas fa-bars"></i>
-                <ul class="mm-menu__mobile">
-                    <li>Artigos</li>
-                    <li>Marcas</li>
-                    <li>Contatos</li>
-                    <li>Precisa de ajuda?</li>
-                    <li class="mm-last-item">Veículos</li>
-                </ul>
-                <ul class="mm-menu__desk">
-                    <li>Artigos</li>
-                    <li>Marcas</li>
-                    <li>Contatos</li>
-                    <li>Precisa de ajuda?</li>
-                    <li class="mm-last-item">Veículos</li>
-                </ul>
-
-            </div>
-        </div>
-    </div>
-</header>
- -->
