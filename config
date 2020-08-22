@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "m3motors"]
+	url = https://github.com/jeanlucasps395/m3motors.git
+	fetch = +refs/heads/*:refs/remotes/m3motors/*
+[branch "master"]
+	remote = m3motors
+	merge = refs/heads/master
