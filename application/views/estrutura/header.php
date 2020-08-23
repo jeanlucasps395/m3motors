@@ -100,7 +100,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <p class="mobilemenu-block__times"><i class="far fa-times" onclick="closeMenuXS()"></i></p>
         <img src="<?= base_url('style/img/logo.jpg'); ?>" class="header-block__logo block__logo--mobile">
         <p>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav left">
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('home/index'); ?>">Inicio</a>
           </li>
@@ -134,13 +134,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
       <div  class="col-xl-5 col-lg-7 col-md-8 col-sm-6 col-6 p0">
           
-          <div class="d-none d-sm-block">
+          <!-- <div class="d-none d-sm-block">
               <button class="navbar-toggler header-block_toogle" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
-          </div>
+          </div> -->
 
-          <button type="button" onclick="openMenuXS()" class="botaoXSmenu d-block d-sm-none">
+          <button type="button" onclick="openMenuXS()" class="botaoXSmenu d-block d-md-none">
               <i class="fad fa-bars"></i>
           </button>
 
