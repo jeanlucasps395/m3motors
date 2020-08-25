@@ -224,7 +224,7 @@ input[type="text"] {
 	.navbar-collapse {
 		/* margin-top: 40px !important;
 	    position: absolute !important;
-	    background: #2e3192 !important;
+	    background: #292929 !important;
 	    width: 100% !important;
 	    text-align: right !important;
 	    padding: 0 42px !important;
@@ -310,4 +310,38 @@ input[type="text"] {
 .block__logo--mobile {
 	width: 200px;
 	margin-top: 5px;
+
 }
+
+}	
+
+
+
+.navbar-nav{
+    width: 100%;
+  }
+  .nav-item{
+      padding: 0 20px;
+  }
+  .item-navlink{
+    margin-top: 5px;
+    margin-bottom: 0 !important;
+  }
+  .mm-last-item{
+    background-color: red;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 30px;
+  }
+  .navbar-collapse{
+      float: right;
+  }
+  @media screen and (max-width: 768px){
+    .mm-last-item{
+      background-color: transparent;
+      border-radius: 30px;
+      color: #fff;
+      padding: 5px 30px;
+    }
+  }
+
