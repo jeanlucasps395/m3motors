@@ -94,33 +94,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 
-<!-- mobile menu -->
+<header>
 <div class="mobileMenu">
     <div class="mobilemenu-block">
         <p class="mobilemenu-block__times"><i class="far fa-times" onclick="closeMenuXS()"></i></p>
-        <img src="<?= base_url('style/img/logo.jpg'); ?>" class="header-block__logo block__logo--mobile">
+        <img src="/m3motors/style/img/logo.png" class="header-block__logo block__logo--mobile">
         <p>
-          <ul class="navbar-nav left">
+          <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/index'); ?>">Inicio</a>
+            <a class="nav-link" href="<?= base_url('home/index'); ?>">Artigos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/meusPedidosPesquisa'); ?>">Meus pedidos</a>
+            <a class="nav-link" href="<?= base_url('home/meusPedidosPesquisa'); ?>">Marcas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Produtos</a>
+            <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Contatos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link atAnc" href="#Contatos">Fale conosco</a>
+            <a class="nav-link atAnc" href="#Contatos">Precisa de ajuda?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link atAnc" href="#Contatos">Veículos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998887212"> <i class="fab fa-whatsapp"></i> Contato via Whatsapp </a>
-            <a class="nav-link" href="tel:5511998887212"><i class="fad fa-phone"></i> Ligar pra Wf Colchões</a>
+            <!-- <a class="nav-link" href="tel:5511998887212"><i class="fad fa-phone"></i> Ligar pra Wf Colchões</a> -->
           </li>
         </ul>
         </p>
     </div>
+</header>
+<!-- mobile menu -->
 </div>
+
 
 <div class="background-home">
     
@@ -145,7 +151,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
 
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav d-flex justify-content-between">
               <li class="nav-item">
                 <a class="nav-link" href="<?= base_url('home/index'); ?>">Artigos</a>
               </li>

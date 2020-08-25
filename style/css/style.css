@@ -110,9 +110,10 @@ header ul li:last-child {
   background-color: red;
   border-radius: 23px;
 }
-
-.left {
-  float: right;
+@media (max-width: 767px) {
+  header ul li:last-child {
+    background: unset;
+  }
 }
 
 .mm-back {

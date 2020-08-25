@@ -22,11 +22,11 @@ header {
 			&:last-child {
 				background-color: red;
 				border-radius: 23px;
+
+				@media (max-width: $screen-xs-max){
+					background: unset;
+				}
 			}
 		}
 	}
-}
-
-.left{
-	float: right;
 }
