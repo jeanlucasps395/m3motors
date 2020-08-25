@@ -23,8 +23,13 @@
 
             // $this->load->view('estrutura/header', $title);
             // $dados['noticias'] = '';
+
+            $dados['carros'] = $this->inicio->buscarCarrosHome();
+            $dados['noticias'] = $this->inicio->buscarNoticiasHome();
+            // print_r($dados['carros']);
+
             $this->load->view('estrutura/header');
-            $this->load->view('home');
+            $this->load->view('home',$dados);
             $this->load->view('estrutura/footer');
         }
 

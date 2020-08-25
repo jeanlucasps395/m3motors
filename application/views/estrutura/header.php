@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, height=device-height">
     <meta name="theme-color" content="#2E3192">
-    <title>Wf colchões</title>
+    <title>M3motors</title>
     <meta name="robots" content="index,follow">
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
