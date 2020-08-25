@@ -329,9 +329,10 @@ header ul li:last-child {
   box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
 }
 .mm-block .mm-slider .mm-block-slick__img img {
+  width: 100%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 100%;
+  height: 240px;
 }
 .mm-block .mm-slider .mm-block-slick__block {
   padding-top: 27px;
@@ -745,6 +746,81 @@ footer .mm-footer__block--btn button {
 }
 .mm-search .mm-veiculo__colection {
   flex-basis: 320px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick {
+  background: white;
+  border-radius: 15px;
+  outline: none;
+  height: auto;
+  margin: 15.5px;
+  -webkit-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+  -moz-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+  box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__img img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 240px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__block {
+  padding-top: 27px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__title {
+  margin-bottom: 22px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__title h6 {
+  font-size: 22px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__content {
+  height: 166px;
+  color: #b4b4b4;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__content p {
+  margin: 0;
+  font-size: 17px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__title, .mm-search .mm-veiculo__colection .mm-block-slick__content {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__end--title {
+  padding-left: 22px;
+  padding-right: 22px;
+  color: #b4b4b4;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__end--title h6 {
+  font-size: 17px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__end h6 {
+  font-weight: 400;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-top: 1px solid #b4b4b4;
+  margin-top: 22px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__price p {
+  padding: 5px 14px;
+  font-size: 17px;
+}
+@media (min-width: 992px) {
+  .mm-search .mm-veiculo__colection .mm-block-slick__price p {
+    padding: 5px 22px;
+  }
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__price--number {
+  color: #b4b4b4;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__price--number span {
+  font-size: 35px;
+  color: black;
+  margin-left: 5px;
+}
+.mm-search .mm-veiculo__colection .mm-block-slick__price--km {
+  color: #b4b4b4;
 }
 .mm-search .mm-block-slick__btn {
   text-align: center;
