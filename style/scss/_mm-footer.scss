@@ -1,45 +1,50 @@
 footer {
-  background: black;
-  color: white;
-  .mm-footer {
-    text-align: center;
+	background: black;
+	color: white;
+	.mm-footer {
+		text-align: center;
+		font-size: 16px;
 
-    @media (min-width: $screen-sm-min) {
-      display: flex;
-      text-align: left;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 25px;
-    }
+		@media (min-width: $screen-sm-min) {
+			display: flex;
+			text-align: left;
+			justify-content: space-between;
+			align-items: center;
+		}
 
-    ul {
-      padding: 0;
+		@media (min-width: $screen-lg-min) {
+			font-size: 25px;
+		}
 
-      li {
-        margin: 15px 0;
-      }
-    }
+		ul {
+			padding: 0;
+			list-style: none;
 
-    &__block {
-      &--btn {
-        input {
-          border: 1px solid white;
-          border-radius: 53px;
-          background: black;
-          color: white;
-          padding: 15px;
-          width: 70%;
-        }
+			li {
+				margin: 15px 0;
+			}
+		}
 
-        button {
-          padding: 15px;
-          background: #f3123c;
-          border-radius: 59px;
-          color: white;
-          border: 0;
-          width: 25%;
-        }
-      }
-    }
-  }
+		&__block {
+			&--btn {
+				input {
+					border: 1px solid white;
+					border-radius: 53px;
+					background: black;
+					color: white;
+					padding: 15px;
+					width: 70%;
+				}
+
+				button {
+					padding: 15px;
+					background: #f3123c;
+					border-radius: 59px;
+					color: white;
+					border: 0;
+					width: 25%;
+				}
+			}
+		}
+	}
 }

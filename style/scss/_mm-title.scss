@@ -2,15 +2,18 @@
 @import "mixin/subtitle";
 
 .mm-title {
-  text-align: center;
-  margin-top: 50px;
+	text-align: center;
 
-  h1 {
-    @include title();
-    margin-bottom: 0 !important;
-  }
+	@media (min-width: $screen-lg-min) {
+		margin-top: 150px;
+	}
 
-  p {
-    @include subtitle();
-  }
+	h1 {
+		@include title();
+		margin-bottom: 0 !important;
+	}
+
+	p {
+		@include subtitle();
+	}
 }

@@ -1,5 +1,3 @@
-
-
 <body>
     <main>
         <section>
@@ -9,9 +7,10 @@
                     <h1>Encontre o carro</h1>
                     <h1>Perfeito para você</h1>
                     <p>Compre o seu carro hoje mesmo</p>
-                    <!-- <div class="mm-back__content--btn"> -->
-                    <i class="fas fa-arrow-down"></i>
-                    <!-- </div> -->
+                    <a href="#veiculo">
+                        <i class="fas fa-arrow-down"></i>
+                    </a>
+                    </a>
                 </div>
             </div>
         </section>
@@ -51,6 +50,7 @@
         <section>
 
             <div class="mm-title">
+                <a id="veiculo"></a>
                 <h1>Todos os veículos</h1>
                 <p>encontre o carro que é a sua cara</p>
             </div>
