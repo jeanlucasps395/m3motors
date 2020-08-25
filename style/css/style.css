@@ -735,4 +735,28 @@ footer .mm-footer__block--btn button {
   color: white;
 }
 
+.mm-search {
+  background: white;
+}
+.mm-search .mm-veiculo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mm-search .mm-veiculo__colection {
+  flex-basis: 320px;
+}
+.mm-search .mm-block-slick__btn {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.mm-search .mm-block-slick__btn a {
+  text-decoration: none;
+  color: white;
+  background: red;
+  border-radius: 40px;
+  padding: 10px 25px;
+}
+
 /*# sourceMappingURL=style.css.map */

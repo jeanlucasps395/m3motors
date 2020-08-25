@@ -1,0 +1,27 @@
+.mm-search {
+	background: white;
+
+	.mm-veiculo {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		&__colection {
+			flex-basis: 320px;
+		}
+	}
+
+	.mm-block-slick__btn {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 40px;
+
+		a {
+			text-decoration: none;
+			color: white;
+			background: red;
+			border-radius: 40px;
+			padding: 10px 25px;
+		}
+	}
+}

@@ -26,16 +26,11 @@
             $this->load->view('home');
             $this->load->view('estrutura/footer');
         }
-        
 
-        function text(){
+        function veiculos(){
             $this->load->view('estrutura/header');
-            $this->load->view('home');
+            $this->load->view('veiculos');
             $this->load->view('estrutura/footer');
         }
-
-
-
-
     }
 ?>
