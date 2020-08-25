@@ -52,13 +52,20 @@
             </div>
         </section>
     </main>
+
+
+    <!-- <div class="overlay"></div> -->
+
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="mm-footer">
                     <div class="col-12 col-md-5">
                         <ul>
-                            <li><img class="img-fluid" src="/m3motors/style/img/img-logo-footer.png" alt="logo"></li>
+
+                            <li><img class="img-fluid" src="<?= base_url('style/'); ?>img/logo.png" alt="logo"></li>
+
                             <div class="mm-footer__block">
                                 <li class="mm-footer__block--title">Receber notícias por email</li>
                                 <li class="mm-footer__block--btn">
