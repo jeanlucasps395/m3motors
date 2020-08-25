@@ -27,6 +27,13 @@
             $this->load->view('home');
             $this->load->view('estrutura/footer');
         }
+        
+
+        function text(){
+            $this->load->view('estrutura/header');
+            $this->load->view('home');
+            $this->load->view('estrutura/footer');
+        }
 
 
 

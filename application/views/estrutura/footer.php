@@ -53,7 +53,9 @@
         </section>
     </main>
 
+
     <!-- <div class="overlay"></div> -->
+
 
     <footer>
         <div class="container">
@@ -61,7 +63,9 @@
                 <div class="mm-footer">
                     <div class="col-12 col-md-5">
                         <ul>
+
                             <li><img class="img-fluid" src="<?= base_url('style/'); ?>img/logo.png" alt="logo"></li>
+
                             <div class="mm-footer__block">
                                 <li class="mm-footer__block--title">Receber notícias por email</li>
                                 <li class="mm-footer__block--btn">

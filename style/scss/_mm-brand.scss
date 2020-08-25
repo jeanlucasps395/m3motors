@@ -1,12 +1,16 @@
 @import "mixin/title";
 
 .mm-brand {
-  h1 {
-    @include title();
-    margin-bottom: 0px !important;
-    margin-top: 69px;
+	@media (min-width: $screen-lg-min) {
+		margin-top: 150px;
   }
-  p {
-    @include subtitle();
-  }
+  
+	h1 {
+		@include title();
+		margin-bottom: 0px !important;
+		margin-top: 69px;
+	}
+	p {
+		@include subtitle();
+	}
 }

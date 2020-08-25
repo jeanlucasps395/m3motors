@@ -1,28 +1,32 @@
 @import "grid.css";
 
 header {
-  background: black;
-  color: white;
+	background: black;
+	color: white;
 
-  .mm-nav__logo {
-    text-align: start;
-  }
+	.mm-nav__logo {
+		text-align: start;
+	}
 
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
 
-    li {
-      padding: 8px 18px;
-      cursor: pointer;
-      &:last-child {
-        background-color: red;
-        border-radius: 23px;
-      }
-    }
-  }
+		li {
+			padding: 8px 18px;
+			cursor: pointer;
+			&:last-child {
+				background-color: red;
+				border-radius: 23px;
+
+				@media (max-width: $screen-xs-max){
+					background: unset;
+				}
+			}
+		}
+	}
 }

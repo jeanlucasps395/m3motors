@@ -1,62 +1,63 @@
 .mm-background__form {
-  background: white;
-  width: 100%;
-  padding: 15px;
-  border-radius: 15px;
-  margin-top: -50px;
-  -webkit-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
-  -moz-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
-  box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+	background: white;
+	width: 100%;
+	padding: 15px;
+	border-radius: 15px;
+	margin-top: -33px;
+	-webkit-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+	-moz-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+	box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
 
-  @media (min-width: $screen-md-min) {
-    width: 50%;
-    padding: 68px 62px;
-  }
+	@media (min-width: $screen-md-min) {
+		width: 50%;
+		padding: 68px 62px;
+	}
 
-  form {
-    display: flex;
-    flex-direction: column;
+	form {
+		display: flex;
+		flex-direction: column;
 
-    label {
-      font-size: 23px;
-      margin-top: 33px;
-      &:first-child {
-        margin-top: 0;
-      }
-    }
-    input {
-      border-radius: 54px;
-      border: 0;
-      border: 1px solid #707070;
-      padding: 11px 23px;
-      font-size: 16px;
-      // padding: 19px 53px;
-      // font-size: 23px;
-    }
-    textarea {
-      height: 217px;
-      margin-bottom: 30px;
-      border-radius: 26px;
-      padding: 19px 16px;
-      font-size: 19px;
-      // padding: 19px 53px;
-      // font-size: 23px;
-    }
-  }
+		label {
+			font-size: 23px;
+			margin-top: 33px;
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+		input {
+			border-radius: 54px;
+			border: 0;
+			border: 1px solid #707070;
+			padding: 11px 23px;
+			font-size: 16px;
+			// padding: 19px 53px;
+			// font-size: 23px;
+		}
+		textarea {
+			height: 217px;
+			margin-bottom: 30px;
+			border-radius: 26px;
+			padding: 19px 16px;
+			font-size: 19px;
+			// padding: 19px 53px;
+			// font-size: 23px;
+		}
+	}
 
-  &-block {
-    text-align: center;
-    &--btn {
-      background: #f3123c;
-      border: 0;
-      color: white;
-      padding: 23px;
-      border-radius: 60px;
-      font-size: 17px;
-      width: 100%;
-      // padding: 29px 68px;
-      // font-size: 25px;
-      // width: 334px;
-    }
-  }
+	&-block {
+		text-align: center;
+		&--btn {
+			background: #f3123c;
+			border: 0;
+			color: white;
+			padding: 23px;
+			border-radius: 60px;
+			font-size: 17px;
+			width: 100%;
+			cursor: pointer;
+			// padding: 29px 68px;
+			// font-size: 25px;
+			// width: 334px;
+		}
+	}
 }
