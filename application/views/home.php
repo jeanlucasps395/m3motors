@@ -2,7 +2,7 @@
     <main>
         <section>
             <div class="mm-back">
-                <img class="img-fluid" src="<?= base_url('style/'); ?>img/full-slider.png" alt="M3 Motors">
+                <!-- <img class="img-fluid" src="<?= base_url('style/'); ?>img/full-slider.png" alt="M3 Motors"> -->
                 <div class="mm-back__content">
                     <h1>Encontre o carro</h1>
                     <h1>Perfeito para você</h1>

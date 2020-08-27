@@ -4,6 +4,15 @@
 		family: Montserrat;
 		weight: bold;
 	}
+	background-image: url("/m3motors/style/img/full-slider.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+
+	@media (max-width: $screen-xs-max) {
+		height: 230px;
+	}
 
 	&__content {
 		position: absolute;
@@ -13,7 +22,7 @@
 		color: white;
 
 		@media (min-width: $screen-sm-min) {
-			top: 65%;
+			top: 53%;
 		}
 
 		h1 {

@@ -120,6 +120,16 @@ header ul li:last-child {
   position: relative;
   font-family: Montserrat;
   font-weight: bold;
+  background-image: url("/m3motors/style/img/full-slider.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+@media (max-width: 767px) {
+  .mm-back {
+    height: 230px;
+  }
 }
 .mm-back__content {
   position: absolute;
@@ -130,7 +140,7 @@ header ul li:last-child {
 }
 @media (min-width: 768px) {
   .mm-back__content {
-    top: 65%;
+    top: 53%;
   }
 }
 .mm-back__content h1 {
