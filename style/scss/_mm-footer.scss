@@ -1,6 +1,7 @@
 footer {
 	background: black;
 	color: white;
+
 	.mm-footer {
 		text-align: center;
 		font-size: 16px;
@@ -22,6 +23,11 @@ footer {
 
 			li {
 				margin: 15px 0;
+
+				a {
+					text-decoration: none;
+					color: white;
+				}
 			}
 		}
 
@@ -43,6 +49,7 @@ footer {
 					color: white;
 					border: 0;
 					width: 25%;
+					cursor: pointer;
 				}
 			}
 		}

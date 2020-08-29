@@ -1,131 +1,132 @@
 @import "mixin/slick-arrow";
 
 .mm-block {
-  background-color: #f1f1f1;
+	background-color: #f1f1f1;
 
-  .mm-slider {
-    // width: 66%;
-    // margin: 50px auto;
+	.mm-slider {
+		// width: 66%;
+		// margin: 50px auto;
 
-    .mm-block-slick {
-      background: white;
-      border-radius: 15px;
-      outline: none;
-      height: auto;
-      margin: 15.5px;
-      -webkit-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
-      -moz-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
-      box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+		.mm-block-slick {
+			background: white;
+			border-radius: 15px;
+			outline: none;
+			height: auto;
+			margin: 15.5px;
+			-webkit-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+			-moz-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+			box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
 
-      &__img {
-        img {
-          border-top-left-radius: 15px;
-          border-top-right-radius: 15px;
-          width: 100%;
-        }
-      }
+			&__img {
+				img {
+					width: 100%;
+					border-top-left-radius: 15px;
+					border-top-right-radius: 15px;
+					height: 240px;
+				}
+			}
 
-      &__block {
-        padding-top: 27px;
-      }
-      &__title {
-        margin-bottom: 22px;
-        h6 {
-          font-size: 22px;
-        }
-      }
-      &__content {
-        height: 166px;
-        color: #b4b4b4;
-        p {
-          margin: 0;
-          font-size: 17px;
-        }
-      }
-      &__title,
-      &__content {
-        padding: {
-          left: 22px;
-          right: 22px;
-        }
-      }
-    }
+			&__block {
+				padding-top: 27px;
+			}
+			&__title {
+				margin-bottom: 22px;
+				h6 {
+					font-size: 22px;
+				}
+			}
+			&__content {
+				height: 166px;
+				color: #b4b4b4;
+				p {
+					margin: 0;
+					font-size: 17px;
+				}
+			}
+			&__title,
+			&__content {
+				padding: {
+					left: 22px;
+					right: 22px;
+				}
+			}
+		}
 
-    .mm-block-slick__end {
-      &--title {
-        padding: {
-          left: 22px;
-          right: 22px;
-        }
-        color: #b4b4b4;
-        h6 {
-          font-size: 17px;
-        }
-      }
+		.mm-block-slick__end {
+			&--title {
+				padding: {
+					left: 22px;
+					right: 22px;
+				}
+				color: #b4b4b4;
+				h6 {
+					font-size: 17px;
+				}
+			}
 
-      h6 {
-        font-weight: 400;
-      }
-    }
+			h6 {
+				font-weight: 400;
+			}
+		}
 
-    .mm-block-slick__price {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      border-top: 1px solid #b4b4b4;
-      margin-top: 22px;
+		.mm-block-slick__price {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			border-top: 1px solid #b4b4b4;
+			margin-top: 22px;
 
-      p {
-        padding: 5px 14px;
-        font-size: 17px;
+			p {
+				padding: 5px 14px;
+				font-size: 17px;
 
-        @media (min-width: $screen-md-min) {
-          padding: 5px 22px;
-        }
-      }
+				@media (min-width: $screen-md-min) {
+					padding: 5px 22px;
+				}
+			}
 
-      &--number {
-        color: #b4b4b4;
-        span {
-          font-size: 35px;
-          color: black;
-          margin-left: 5px;
-        }
-      }
+			&--number {
+				color: #b4b4b4;
+				span {
+					font-size: 35px;
+					color: black;
+					margin-left: 5px;
+				}
+			}
 
-      &--km {
-        color: #b4b4b4;
-      }
-    }
+			&--km {
+				color: #b4b4b4;
+			}
+		}
 
-    .slick-arrow {
-      @include slick-arrow();
+		.slick-arrow {
+			@include slick-arrow();
 
-      &.slick-prev {
-        @media (min-width: $screen-lg-min) {
-          left: -100px;
-        }
+			&.slick-prev {
+				@media (min-width: $screen-lg-min) {
+					left: -100px;
+				}
 
-        &:before {
-          content: "\f104";
-          font-size: 23px;
-          font-family: "Font Awesome 5 Pro";
-          font-weight: 900;
-        }
-      }
+				&:before {
+					content: "\f104";
+					font-size: 23px;
+					font-family: "Font Awesome 5 Pro";
+					font-weight: 900;
+				}
+			}
 
-      &.slick-next {
-        @media (min-width: $screen-lg-min) {
-          right: -100px;
-        }
-        right: 0;
-        &:before {
-          content: "\f105";
-          font-size: 23px;
-          font-family: "Font Awesome 5 Pro";
-          font-weight: 900;
-        }
-      }
-    }
-  }
+			&.slick-next {
+				@media (min-width: $screen-lg-min) {
+					right: -100px;
+				}
+				right: 0;
+				&:before {
+					content: "\f105";
+					font-size: 23px;
+					font-family: "Font Awesome 5 Pro";
+					font-weight: 900;
+				}
+			}
+		}
+	}
 }

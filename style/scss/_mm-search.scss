@@ -1,0 +1,136 @@
+.mm-search {
+	background: white;
+
+	.container_custom {
+		@media (min-width: 768px) {
+			max-width: 677px;
+		}
+
+		@media (min-width: 1200px) {
+			max-width: 1310px;
+		}
+
+		@media (max-width: 1440) {
+			max-width: 1310px;
+		}
+	}
+
+	.mm-veiculo {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		@media (min-width: $screen-sm-min) {
+			justify-content: unset;
+		}
+
+		&__colection {
+			flex-basis: 320px;
+			.mm-block-slick {
+				background: white;
+				border-radius: 15px;
+				outline: none;
+				height: auto;
+				margin: 15.5px;
+				-webkit-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+				-moz-box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+				box-shadow: 0px 0px 19px -5px rgba(145, 145, 145, 0.63);
+
+				&__img {
+					img {
+						width: 100%;
+						border-top-left-radius: 15px;
+						border-top-right-radius: 15px;
+						height: 240px;
+					}
+				}
+
+				&__block {
+					padding-top: 27px;
+				}
+				&__title {
+					margin-bottom: 22px;
+					h6 {
+						font-size: 22px;
+					}
+				}
+				&__content {
+					height: 166px;
+					color: #b4b4b4;
+					p {
+						margin: 0;
+						font-size: 17px;
+					}
+				}
+				&__title,
+				&__content {
+					padding: {
+						left: 22px;
+						right: 22px;
+					}
+				}
+			}
+
+			.mm-block-slick__end {
+				&--title {
+					padding: {
+						left: 22px;
+						right: 22px;
+					}
+					color: #b4b4b4;
+					h6 {
+						font-size: 17px;
+					}
+				}
+
+				h6 {
+					font-weight: 400;
+				}
+			}
+
+			.mm-block-slick__price {
+				display: flex;
+				justify-content: space-between;
+				align-items: baseline;
+				border-top: 1px solid #b4b4b4;
+				margin-top: 22px;
+
+				p {
+					padding: 5px 14px;
+					font-size: 17px;
+
+					@media (min-width: $screen-md-min) {
+						padding: 5px 22px;
+					}
+				}
+
+				&--number {
+					color: #b4b4b4;
+					span {
+						font-size: 35px;
+						color: black;
+						margin-left: 5px;
+					}
+				}
+
+				&--km {
+					color: #b4b4b4;
+				}
+			}
+		}
+	}
+
+	.mm-block-slick__btn {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 40px;
+
+		a {
+			text-decoration: none;
+			color: white;
+			background: red;
+			border-radius: 40px;
+			padding: 10px 25px;
+		}
+	}
+}

@@ -2,60 +2,61 @@
 @import "mixin/button";
 
 .mm-news {
-  padding-top: 20px;
+	padding-top: 20px;
 
-  @media (min-width: $screen-sm-min) {
-    padding-top: 90px;
-  }
+	@media (min-width: $screen-sm-min) {
+		padding-top: 90px;
+	}
 
-  h1 {
-    @include title();
-  }
+	h1 {
+		@include title();
+	}
 
-  &__bock {
-    display: flex;
-    flex-direction: column;
+	&__bock {
+		display: flex;
+		flex-direction: column;
 
-    @media (min-width: $screen-sm-min) {
-      flex-direction: row;
-    }
+		@media (min-width: $screen-sm-min) {
+			flex-direction: row;
+		}
 
-    .img-fluid {
-      border-radius: 8px;
-    }
-  }
+		.img-fluid {
+			border-radius: 8px;
+			cursor: pointer;
+		}
+	}
 
-  &__date {
-    text-align: end;
-    color: #aaa;
-  }
+	&__date {
+		text-align: end;
+		color: #aaa;
+	}
 
-  &__title {
-    text-align: center;
-    font-weight: bold;
-  }
+	&__title {
+		text-align: center;
+		font-weight: bold;
+	}
 
-  .mm-news__block--btn {
-    text-align: center;
-    margin-top: 20px;
+	.mm-news__block--btn {
+		text-align: center;
+		margin-top: 20px;
 
-    button {
-      @include button();
+		button {
+			@include button();
 
-      // border: 0;
-      // border-radius: 51px;
-      // background: red;
-      // color: white;
-      // padding: 10px 20px;
+			// border: 0;
+			// border-radius: 51px;
+			// background: red;
+			// color: white;
+			// padding: 10px 20px;
 
-      // @media (min-width: $screen-lg-min) {
-      //   font-size: 39px;
-      // }
+			// @media (min-width: $screen-lg-min) {
+			//   font-size: 39px;
+			// }
 
-      a {
-        text-decoration: none;
-        color: white;
-      }
-    }
-  }
+			a {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
 }

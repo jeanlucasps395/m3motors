@@ -32,16 +32,28 @@
             $this->load->view('home',$dados);
             $this->load->view('estrutura/footer');
         }
-        
 
-        function text(){
+        function veiculos(){
             $this->load->view('estrutura/header');
-            $this->load->view('home');
+            $this->load->view('veiculos');
             $this->load->view('estrutura/footer');
         }
 
+        function product(){
+            $this->load->view('estrutura/header');
+            $this->load->view('product');
+            $this->load->view('estrutura/footer');
+        }
 
+        function news(){
+            $this->load->view('estrutura/header');
+            $this->load->view('news');
+            $this->load->view('estrutura/footer');
+        }
 
-
+        function newspaper(){
+            $this->load->view('estrutura/header');
+            $this->load->view('newspaper');
+            $this->load->view('estrutura/footer');
+        }
     }
-?>

@@ -1,0 +1,79 @@
+@import "mixin/slick-arrow";
+
+.mm-product {
+	.slick-arrow {
+		@include slick-arrow();
+
+		&.slick-prev {
+			&:before {
+				content: "\f104";
+				font-size: 23px;
+				font-family: "Font Awesome 5 Pro";
+				font-weight: 900;
+			}
+		}
+
+		&.slick-next {
+			right: 0;
+			&:before {
+				content: "\f105";
+				font-size: 23px;
+				font-family: "Font Awesome 5 Pro";
+				font-weight: 900;
+			}
+		}
+	}
+	.mm-background {
+		display: none;
+	}
+
+	&__block-center {
+		display: flex;
+		flex-direction: column;
+
+		@media (min-width: $screen-md-min) {
+			flex-direction: row;
+		}
+
+		.mm-product__block-left {
+			padding: 30px 0;
+
+			h1 {
+				font-size: 1.5rem;
+				font-weight: bold;
+			}
+
+			h2 {
+				font-size: 1.2rem;
+				font-weight: bold;
+			}
+
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				padding: 20px 0;
+				p {
+					color: #a3a3a3;
+				}
+			}
+		}
+		.mm-product__block-right {
+		}
+	}
+
+	.mm-background__form {
+		margin: 0;
+
+		@media (min-width: $screen-md-min) {
+			width: unset;
+			padding: 15px;
+			margin-top: 30px;
+		}
+	}
+
+	.mm-background__line,
+	.mm-background__content {
+		display: none;
+	}
+}

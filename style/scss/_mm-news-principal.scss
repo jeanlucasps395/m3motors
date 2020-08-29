@@ -1,0 +1,22 @@
+.mm-news-principal {
+	.mm-back__content {
+		@media (max-width: $screen-xs-max) {
+			top: 42%;
+		}
+
+		h1 {
+			@media (max-width: $screen-xs-max) {
+				font-size: 6vw;
+			}
+		}
+	}
+
+	.block-zoom {
+		position: relative;
+		&:hover {
+			-webkit-box-shadow: 0px 0px 10px 0px rgba(143, 143, 143, 1);
+			-moz-box-shadow: 0px 0px 10px 0px rgba(143, 143, 143, 1);
+			box-shadow: 0px 0px 10px 0px rgba(143, 143, 143, 1);
+		}
+	}
+}

@@ -2,7 +2,7 @@
     <main>
         <section>
             <div class="mm-back">
-                <img class="img-fluid" src="<?= base_url('style/'); ?>img/full-slider.png" alt="M3 Motors">
+                <!-- <img class="img-fluid" src="<?= base_url('style/'); ?>img/full-slider.png" alt="M3 Motors"> -->
                 <div class="mm-back__content">
                     <h1>Encontre o carro</h1>
                     <h1>Perfeito para você</h1>
@@ -48,7 +48,6 @@
         </section>
 
         <section>
-
             <div class="mm-title">
                 <a id="veiculo"></a>
                 <h1>Todos os veículos</h1>
@@ -92,7 +91,7 @@
             </div>
             <div class="col-12">
                 <div class="mm-news__block--btn">
-                    <button><a href="#">Ver todos os carros</a></button>
+                    <button><a class="nav-link" href="<?= base_url('home/veiculos'); ?>">Ver todos os carros</a></button>
                 </div>
             </div>
         </section>
