@@ -138,11 +138,6 @@ header ul li:last-child {
   text-align: center;
   color: white;
 }
-@media (min-width: 768px) {
-  .mm-back__content {
-    top: 53%;
-  }
-}
 .mm-back__content h1 {
   font-size: 3vw;
   font-family: Montserrat;
