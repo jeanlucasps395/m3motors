@@ -9,12 +9,7 @@ footer {
 		@media (min-width: $screen-sm-min) {
 			display: flex;
 			text-align: left;
-			justify-content: space-between;
 			align-items: center;
-		}
-
-		@media (min-width: $screen-lg-min) {
-			font-size: 25px;
 		}
 
 		ul {

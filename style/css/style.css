@@ -689,13 +689,7 @@ footer .mm-footer {
   footer .mm-footer {
     display: flex;
     text-align: left;
-    justify-content: space-between;
     align-items: center;
-  }
-}
-@media (min-width: 1200px) {
-  footer .mm-footer {
-    font-size: 25px;
   }
 }
 footer .mm-footer ul {
