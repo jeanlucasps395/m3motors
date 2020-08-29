@@ -1,10 +1,10 @@
 <body class="veiculos">
     <main>
         <section>
-            <div class="mm-back">                
+            <div class="mm-back">
                 <div class="mm-back__content">
                     <h1>Confira agora</h1>
-                    <h1>Todos os nossos veículos</h1>                    
+                    <h1>Todos os nossos veículos</h1>
                 </div>
             </div>
         </section>
@@ -42,9 +42,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -70,9 +70,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -98,9 +98,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -126,9 +126,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -154,9 +154,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -182,9 +182,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -210,9 +210,9 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>                      
+                        </div>
                         <div class="mm-veiculo__colection">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img">
@@ -238,15 +238,15 @@
                                 </div>
                             </div>
                             <div class="mm-block-slick__btn">
-                            <a  href="<?= base_url('home/product'); ?>">Ver mais</a>                                
+                                <a href="<?= base_url('home/product'); ?>">Ver mais</a>
                             </div>
-                        </div>               
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        
+
     </main>
 
 </body>

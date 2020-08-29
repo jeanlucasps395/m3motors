@@ -1,8 +1,8 @@
 <body class="mm-product">
     <main>
         <div class="container">
-        <div class="mm-product__block-center">
-                <div class="col-12 col-lg-6">                
+            <div class="mm-product__block-center">
+                <div class="col-12 col-lg-6">
                     <div class="mm-product__block-left">
                         <h1>Mitsubishi Lancer Evolution X</h1>
                         <div class="mm-product__block-left--img">
@@ -13,8 +13,12 @@
                         </div>
 
                         <ul>
-                            <li><h2>Sobre este Carro</h2></li>
-                            <li><p>Carro completo! Único dono, todo revisado. Teto solar, bancos em couro, multimídia com TV, DVD, Bluethoot, GPS, sensor e câmera de ré. Rodas aro 18”. Oportunidade!!!</p></li>                            
+                            <li>
+                                <h2>Sobre este Carro</h2>
+                            </li>
+                            <li>
+                                <p>Carro completo! Único dono, todo revisado. Teto solar, bancos em couro, multimídia com TV, DVD, Bluethoot, GPS, sensor e câmera de ré. Rodas aro 18”. Oportunidade!!!</p>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -35,8 +39,7 @@
                                 </label>
                                 <input type="tel" name="" id="" placeholder="Nos diga seu telefone">
                                 <label for="">Mensagem</label>
-                                <textarea style="resize: none" name="" id="" cols="30" rows="10"
-                                    placeholder="Fale um pouco mais aqui..."></textarea>
+                                <textarea style="resize: none" name="" id="" cols="30" rows="10" placeholder="Fale um pouco mais aqui..."></textarea>
                                 <div class="mm-background__form-block">
                                     <button class="mm-background__form-block--btn" type="submit">Enviar
                                         Mensagem</button>
