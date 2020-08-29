@@ -78,6 +78,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             scrollTop: $($(this).attr('href')).offset().top
           }, 500, 'linear');
           closeMenuXS();
+
         });
       });
     });
