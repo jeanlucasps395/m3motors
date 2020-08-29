@@ -39,5 +39,16 @@
             $this->load->view('product');
             $this->load->view('estrutura/footer');
         }
+
+        function news(){
+            $this->load->view('estrutura/header');
+            $this->load->view('news');
+            $this->load->view('estrutura/footer');
+        }
+
+        function newspaper(){
+            $this->load->view('estrutura/header');
+            $this->load->view('newspaper');
+            $this->load->view('estrutura/footer');
+        }
     }
-?>

@@ -1,9 +1,28 @@
 .mm-search {
 	background: white;
 
+	.container_custom {
+		@media (min-width: 768px) {
+			max-width: 677px;
+		}
+
+		@media (min-width: 1200px) {
+			max-width: 1310px;
+		}
+
+		@media (max-width: 1440) {
+			max-width: 1310px;
+		}
+	}
+
 	.mm-veiculo {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
+
+		@media (min-width: $screen-sm-min) {
+			justify-content: unset;
+		}
 
 		&__colection {
 			flex-basis: 320px;
