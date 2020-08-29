@@ -118,7 +118,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Veículos</a>
+           <a class="nav-link" href="<?= base_url('home/veiculos'); ?>">Veículos</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998887212"> <i class="fab fa-whatsapp"></i> Contato via Whatsapp </a>
@@ -170,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a class="nav-link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998887212"><i class="fab fa-whatsapp"></i></a>
               </li> -->
               <li class="mm-last-item nav-item">
-                <a class="nav-link" href="<?= base_url('home/produtos'); ?>">Veículos</a>
+                <a class="nav-link" href="<?= base_url('home/veiculos'); ?>">Veículos</a>
               </li>
             </ul>
           </div>

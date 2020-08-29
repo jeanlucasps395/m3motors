@@ -33,5 +33,11 @@
             $this->load->view('veiculos');
             $this->load->view('estrutura/footer');
         }
+
+        function product(){
+            $this->load->view('estrutura/header');
+            $this->load->view('product');
+            $this->load->view('estrutura/footer');
+        }
     }
 ?>

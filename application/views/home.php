@@ -56,7 +56,6 @@
         </section>
 
         <section>
-
             <div class="mm-title">
                 <a id="veiculo"></a>
                 <h1>Todos os veículos</h1>
@@ -208,7 +207,7 @@
             </div>
             <div class="col-12">
                 <div class="mm-news__block--btn">
-                    <button><a href="#">Ver todos os carros</a></button>
+                    <button><a class="nav-link" href="<?= base_url('home/veiculos'); ?>">Ver todos os carros</a></button>
                 </div>
             </div>
         </section>

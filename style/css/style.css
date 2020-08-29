@@ -414,6 +414,7 @@ header ul li:last-child {
   font-size: 0;
   color: white;
   top: 60%;
+  outline: none;
 }
 @media (min-width: 1200px) {
   .mm-block .mm-slider .slick-arrow {
@@ -752,7 +753,6 @@ footer .mm-footer__block--btn button {
 .mm-search .mm-veiculo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .mm-search .mm-veiculo__colection {
   flex-basis: 320px;
@@ -843,6 +843,86 @@ footer .mm-footer__block--btn button {
   background: red;
   border-radius: 40px;
   padding: 10px 25px;
+}
+
+.mm-product .slick-arrow {
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  z-index: 9;
+  border-radius: 50px;
+  border: 0;
+  background: red;
+  font-size: 0;
+  color: white;
+  top: 60%;
+  outline: none;
+}
+@media (min-width: 1200px) {
+  .mm-product .slick-arrow {
+    top: 50%;
+  }
+}
+.mm-product .slick-arrow.slick-prev:before {
+  content: "";
+  font-size: 23px;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+.mm-product .slick-arrow.slick-next {
+  right: 0;
+}
+.mm-product .slick-arrow.slick-next:before {
+  content: "";
+  font-size: 23px;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+}
+.mm-product .mm-background {
+  display: none;
+}
+.mm-product__block-center {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .mm-product__block-center {
+    flex-direction: row;
+  }
+}
+.mm-product__block-center .mm-product__block-left {
+  padding: 30px 0;
+}
+.mm-product__block-center .mm-product__block-left h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.mm-product__block-center .mm-product__block-left h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.mm-product__block-center .mm-product__block-left ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding: 20px 0;
+}
+.mm-product__block-center .mm-product__block-left ul p {
+  color: #a3a3a3;
+}
+.mm-product .mm-background__form {
+  margin: 0;
+}
+@media (min-width: 992px) {
+  .mm-product .mm-background__form {
+    width: unset;
+    padding: 15px;
+    margin-top: 30px;
+  }
+}
+.mm-product .mm-background__line,
+.mm-product .mm-background__content {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
