@@ -22,8 +22,11 @@
 
 
                         <?php foreach ($noticias as $noticia) { ?>    
+
                             <div class="col-12 col-sm-6 mm-news__bock--left">
-                                <div class="" style="background: url(<?= base_url('style/noticias'); ?>/<?= $noticia['id_noticia']; ?>/noticia.png) center center no-repeat;background-size: cover;height: 371px;width: 100%;border-radius: 15px;">   </div>
+                                <a href="<?= base_url('home/newspaper?id='); ?><?= $noticia['id_noticia'] ?>">
+                                    <div class="" style="background: url(<?= base_url('style/noticias'); ?>/<?= $noticia['id_noticia']; ?>/noticia.png) center center no-repeat;background-size: cover;height: 371px;width: 100%;border-radius: 15px;">   </div>
+                                </a>
                                 <!-- <img class="img-fluid" src="<?= base_url('style/'); ?>img/img_670x371.png" alt="News"> -->
                                 <div class="mm-news__date">
                                     <p>
@@ -36,6 +39,7 @@
                                     </p>
                                 </div>
                             </div>
+
                         <?php } ?>
 
                     </div>
@@ -58,7 +62,7 @@
                     <div class="mm-slider">
 
                         <?php foreach ($carros as $carro) { ?>
-                            
+                            <a href="<?= base_url('home/product?id='); ?><?= $carro['id']; ?>">
                             <div class="mm-block-slick">
                                 <div class="mm-block-slick__img" style="background: url(<?= base_url('style/carros'); ?>/<?= $carro['id']; ?>/carro1.png) center center no-repeat;background-size: cover;height: 240px;border-top-left-radius: 15px;border-top-right-radius: 15px;">
                                     <!-- <img src="" alt="Teste"> -->
@@ -82,6 +86,7 @@
                                     <p class="mm-block-slick__price--km"><?= $carro['km']; ?> Km</p>
                                 </div>
                             </div>
+                            </a>
 
                         <?php } ?>
 
@@ -118,3 +123,15 @@
                 </div>
             </div>
         </section>
+
+        <style type="text/css">
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            .mm-block .mm-slider .mm-block-slick__title h6{
+                color: black;
+            }
+        </style>

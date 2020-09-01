@@ -4,21 +4,21 @@
              <div class="row">
                  <div class="mm-background__block">
                      <div class="mm-background__form">
-                         <form action="#">
+                         <form action="<?= base_url() ?>home/emailrodape" method="post">
                              <label for="" class="name">
                                  Nome
                              </label>
-                             <input type="text" name="" id="" placeholder="Quem devemos procurar?">
+                             <input type="text" id="" placeholder="Quem devemos procurar?" name="nomelCliente">
                              <label for="" class="email">
                                  Email
                              </label>
-                             <input type="email" name="" id="" placeholder="nos diga seu melhor email">
+                             <input type="email"  id="" placeholder="nos diga seu melhor email" name="emailCliente">
                              <label for="" class="tel">
                                  Telefone
                              </label>
-                             <input type="tel" name="" id="" placeholder="Nos diga seu telefone">
+                             <input type="tel" id="" placeholder="Nos diga seu telefone" name="mensagem">
                              <label for="">Mensagem</label>
-                             <textarea style="resize: none" name="" id="" cols="30" rows="10" placeholder="Fale um pouco mais aqui..."></textarea>
+                             <textarea style="resize: none" id="" cols="30" rows="10" placeholder="Fale um pouco mais aqui..." name="telefone"></textarea>
                              <div class="mm-background__form-block">
                                  <button class="mm-background__form-block--btn" type="submit">Enviar
                                      Mensagem</button>
