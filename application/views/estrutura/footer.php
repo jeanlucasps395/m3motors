@@ -58,58 +58,56 @@
 
  <footer>
      <div class="container">
-         <div class="row">
-             <div class="mm-footer">
-                 <div class="col-12 col-md-5">
-                     <ul>
+         <div class="mm-footer">
+             <div class="col-12 col-md-5">
+                 <ul>
 
-                         <li><img class="img-fluid" src="<?= base_url('style/'); ?>img/logo.png" alt="logo"></li>
+                     <li><img class="img-fluid" src="<?= base_url('style/'); ?>img/logo.png" alt="logo"></li>
 
-                         <div class="mm-footer__block">
-                             <li class="mm-footer__block--title">Receber notícias por email</li>
-                             <li class="mm-footer__block--btn">
-                                 <input placeholder="Digite seu email aqui" type="email" name="" id="">
-                                 <button>ok</button>
-                             </li>
-                         </div>
-                     </ul>
-                 </div>
-                 <div class="col-12 col-md-3">
-                     <ul class="mm-footer__block-two">
-                         <li>
-                             <a href="">
-                                 Artigos</li>
+                     <div class="mm-footer__block">
+                         <li class="mm-footer__block--title">Receber notícias por email</li>
+                         <li class="mm-footer__block--btn">
+                             <input placeholder="Digite seu email aqui" type="email" name="" id="">
+                             <button>ok</button>
+                         </li>
+                     </div>
+                 </ul>
+             </div>
+             <div class="col-12 col-md">
+                 <ul class="mm-footer__block-two">
+                     <li>
+                         <a href="">
+                             Artigos</li>
+                     </a>
+                     <li>
+                         <a href="">
+                             Marcas
                          </a>
-                         <li>
-                             <a href="">
-                                 Marcas
-                             </a>
-                         </li>
-                         <li>
-                             <a href="">
-                                 Contato
-                             </a>
-                         </li>
-                         <li>
-                             <a href="">
-                                 Precisa de ajuda?
-                             </a>
-                         </li>
-                         <li>
-                             <a href="">
-                                 Veículos
-                             </a>
-                         </li>
-                     </ul>
-                 </div>
-                 <div class="col-12 col-md-4">
-                     <ul class="mm-footer__block--info">
-                         <li>Rua para testes 123, Arujá - São Paulo 07425-000</li>
-                         <li>(11) 90000 - 0000</li>
-                         <li>m3motors@m3otors.com.br</li>
-                         <li>Segunda a sexta das 10h00 as 19h00</li>
-                     </ul>
-                 </div>
+                     </li>
+                     <li>
+                         <a href="">
+                             Contato
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             Precisa de ajuda?
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             Veículos
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+             <div class="col-12 col-md-5">
+                 <ul class="mm-footer__block--info">
+                     <li>Rua para testes 123, Arujá - São Paulo 07425-000</li>
+                     <li>(11) 90000 - 0000</li>
+                     <li>m3motors@m3otors.com.br</li>
+                     <li>Segunda a sexta das 10h00 as 19h00</li>
+                 </ul>
              </div>
          </div>
      </div>
